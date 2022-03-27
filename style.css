@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-user-drag: none;
-  -webkit-touch-callout:none;
+  -webkit-touch-callout: none;
 }
 body {
   -webkit-overflow-scrolling: touch;
@@ -10,9 +10,9 @@ body {
 }
 .wrap {
   position: relative;
-  font-size: .4rem;
+  font-size: 0.4rem;
   color: #7c6857;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 200;
 }
 .dec-layer img {
@@ -30,10 +30,10 @@ body {
   text-align: center;
 }
 .text-hd {
-  padding: .6rem .2rem 1rem;
+  padding: 0.6rem 0.2rem 1rem;
 }
 .tex-upc {
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 .logo {
   text-align: center;
@@ -42,15 +42,15 @@ body {
   width: 100%;
 }
 .info {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 .info-row {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   margin: 0 1rem;
   border-top: 1px solid #d4c9bf;
 }
 .date {
-  font-size: .5rem;
+  font-size: 0.5rem;
   letter-spacing: 0.02rem;
 }
 .adress {
@@ -58,7 +58,7 @@ body {
   justify-content: space-between;
 }
 .adress .text {
-  width:80%;
+  width: 80%;
 }
 .adress .ic {
   width: 1rem;
@@ -69,13 +69,13 @@ body {
   display: flex;
 }
 .schedule .item:not(:last-child) {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .time {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 .st {
-  font-size: .35rem;
+  font-size: 0.35rem;
   color: #f2844e;
 }
 .photo img {
@@ -86,10 +86,10 @@ body {
 }
 .dresscode img {
   width: 80%;
-  padding: .5rem 0 1rem;
+  padding: 0.5rem 0 1rem;
 }
 .footer {
-  font-size: .32rem;
+  font-size: 0.32rem;
   padding: 1rem 0;
   background: #edd8ca;
   letter-spacing: 0.03rem;
@@ -100,7 +100,7 @@ body {
 .mp_mob {
   display: block;
 }
-@media only screen and (min-width: 768px) and (max-width: 1980px){
+@media only screen and (min-width: 768px) and (max-width: 1980px) {
   .header {
     display: block;
     width: auto;
@@ -109,7 +109,7 @@ body {
     width: 55%;
   }
   .text-hd {
-    padding-bottom: .6rem;
+    padding-bottom: 0.6rem;
   }
   .cont-wrap {
     display: flex;
