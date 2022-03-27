@@ -103,9 +103,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1980px){
   .header {
     display: block;
-    /* 平板螢幕豎屏隱藏*/
-    /* height: 100vh; */
-    width:auto;
+    width: auto;
   }
   .logo img {
     width: 55%;
