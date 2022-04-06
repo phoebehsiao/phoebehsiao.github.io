@@ -7,13 +7,17 @@
 body {
   -webkit-overflow-scrolling: touch;
   background: #f7ece3;
+
 }
 .wrap {
   position: relative;
   font-size: .4rem;
   color: #7c6857;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', 'Noto Sans TC', sans-serif;
   font-weight: 200;
+  /* background-image: url("./lib/bg-stone.png");
+  background-position: top center;
+  background-size: cover; */
 }
 .dec-layer img {
   position: absolute;
@@ -100,6 +104,8 @@ body {
 .mp_mob {
   display: block;
 }
+
+
 @media only screen and (min-width: 768px) and (max-width: 1980px){
   .header {
     display: block;
@@ -107,6 +113,11 @@ body {
     /* height: 100vh; */
     width:auto;
   }
+  .logo {
+    max-width: 12rem;
+    margin: auto;
+  }
+
   .logo img {
     width: 55%;
   }
@@ -137,4 +148,29 @@ body {
   .mp_mob {
     display: none;
   }
+}
+
+#cn-wrap .text-hd,#cn-wrap .footer {
+  letter-spacing:.1rem;
+}
+
+#cn-wrap .cont .it {
+  line-height: .58rem;
+}
+.laugbtn {
+  font-size: .5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.laugbtn a {
+  display:inline-block;
+  border: 2px solid #EDD4BF;
+  padding: .3rem;
+  margin: .3rem;
+  width:2rem;
+  text-decoration:none;
+  color:#76563C;
+}
+.laugbtn a:hover {
+  background:#F2DDCB;
 }
